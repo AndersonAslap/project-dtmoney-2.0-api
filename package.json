@@ -1,0 +1,11 @@
+{
+  "name": "project-dtmoney-2.0-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/AndersonAslap/project-dtmoney-2.0-api.git",
+  "author": "Anderson Adolfo <anderson.adolfo1998@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
