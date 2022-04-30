@@ -5,6 +5,9 @@
   "repository": "https://github.com/AndersonAslap/project-dtmoney-2.0-api.git",
   "author": "Anderson Adolfo <anderson.adolfo1998@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --exit-child --inspect --transpile-only --ignore-watch node_modules --respawn src/shared/infra/http/server.ts"
+  },
   "dependencies": {
     "express": "^4.17.3",
     "swagger-ui-express": "^4.3.0",
